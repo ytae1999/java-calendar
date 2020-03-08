@@ -9,7 +9,7 @@ public class InputNumberCalendar {
 	//
 	// Scanner scanner = new Scanner(System.in);
 	// int month = scanner.nextInt();
-	// int[] lastMonthDates = {31, 28, 30, 31, 30, 31, 30, 31, 30, 31, 30, 31};
+	// int[] lastMonthDates = { 31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31 };
 	// System.out.println(month + "월은 " + lastMonthDates[month - 1] + "까지 있습니다.");
 
 	public static void main(String[] args) {
@@ -26,8 +26,9 @@ public class InputNumberCalendar {
 		case 3:
 		case 5:
 		case 7:
-		case 9:
-		case 11:
+		case 8:
+		case 10:
+		case 12:
 			System.out.println(month + "월은 31일까지 있습니다.");
 			break;
 		case 2:
@@ -35,9 +36,8 @@ public class InputNumberCalendar {
 			break;
 		case 4:
 		case 6:
-		case 8:
-		case 10:
-		case 12:
+		case 9:
+		case 11:
 			System.out.println(month + "월은 30일까지 있습니다.");
 			break;
 
