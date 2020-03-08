@@ -3,14 +3,14 @@ package honux.calendar;
 import java.util.Scanner;
 
 public class InputNumberCalendar {
-	
-	//다른 방법으로 풀이하기
-	//System.out.print("달을 입력하세요: ");
+
+	// 다른 방법으로 풀이하기
+	// System.out.print("달을 입력하세요: ");
 	//
-	//Scanner scanner = new Scanner(System.in);
-	//int month = scanner.nextInt();
-	//int[] lastMonthDates = {31, 28, 30, 31, 30, 31, 30, 31, 30, 31, 30, 31};
-	//System.out.println(month + "월은 " + lastMonthDates[month - 1] + "까지 있습니다.");
+	// Scanner scanner = new Scanner(System.in);
+	// int month = scanner.nextInt();
+	// int[] lastMonthDates = {31, 28, 30, 31, 30, 31, 30, 31, 30, 31, 30, 31};
+	// System.out.println(month + "월은 " + lastMonthDates[month - 1] + "까지 있습니다.");
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
